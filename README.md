@@ -61,22 +61,11 @@ $ bundle add set
 Once all the Dependencies are Install, Run this command from Project Directory
 
 ```
-$ ruby ipl_analysis.rb
+$ ruby Main.rb
 ```
 
 OR (Run From Home Directory)
 
 ```
-ruby "/ruby-data-project/ipl_analysis.rb"
+ruby "/Data-Analysis-Using-Ruby/Main.rb"
 ```
-
-## Explanation:
-
->This Command execute **ipl_analysis.rb** File
->First **ipl_analysis.rb** will take data from ***Data / Original_Data Folder*** in ***ruby-data-project Folder***
-
->Then **ipl_analysis.rb** create a new csv files in ***ruby-data-project Folder / Data / Updated_Data Folder***
-
->In the new CSV file all Team Names and Country Names are converted into **abbreviations** for easy graph plotting
-
->**ipl_analysis.rb** perform all the task and stores Output graph in Graph Folder
